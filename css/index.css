@@ -103,6 +103,7 @@ header nav a{
 
 /* going to change this container to be flex */
 .container {
+    border: 2px red solid;
     width: 100%;
     margin: 0 auto;
 }
@@ -116,12 +117,14 @@ header nav a{
 }
 
 .top-content .text-container {
+
     width: 48%;
     padding: 0 1%;
     padding-bottom: 3%;  
 }
 
 .middle-content {
+
     margin-bottom: 3%;
     border-bottom: 1px dashed black;
 }
@@ -129,12 +132,15 @@ header nav a{
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+        border: blue 2px solid;
+
 }
 
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 }
 
 .middle-content .boxes .box {
@@ -143,22 +149,21 @@ header nav a{
     display: flex;
     align-items: center;
     justify-content: center;
+    border: orangered 2px solid;
+
 
 }
 
-.box{
-    padding: 6%;
-    margin: 2%;
-}
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin: 0 2% 2%;
     justify-content: space-around;
 }
 
 .bottom-content .text-container {
     padding-right: 4%;
+
 }
 
 .bottom-content .text-container:last-child {
@@ -184,3 +189,13 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+
+
+.city{
+    display: flex;
+    width: 100%;
+}
+
