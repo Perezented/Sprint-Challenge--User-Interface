@@ -83,7 +83,6 @@ header nav{
     padding: 3% 0 4%;
     display:flex;
     justify-content: space-around;
-    border: 1px black solid;
     align-items: center;
 }
 header nav a{
@@ -103,7 +102,6 @@ header nav a{
 
 /* going to change this container to be flex */
 .container {
-    border: 2px red solid;
     width: 100%;
     margin: 0 auto;
 }
@@ -113,13 +111,11 @@ header nav a{
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 4%;
-    border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
 
     width: 48%;
-    padding: 0 1%;
     padding-bottom: 3%;  
 }
 
@@ -131,7 +127,6 @@ header nav a{
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
-        border: blue 2px solid;
 
 }
 
@@ -148,12 +143,9 @@ header nav a{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: orangered 2px solid;
     width: 15%;
     padding:6% 0;
     margin: 2% 0;
-
-
 }
 
 
@@ -194,19 +186,18 @@ footer nav a {
 
 
 
-
+/* added banner to about page */
 
 .city{
     display: flex;
     width: 100%;
 }
 
-
+/* adjusting each box for the about page */
 .sides{
     display:flex;
     flex-direction: column;
     width:49%;
-    
     padding:1%;
     border-bottom: black 2px dashed;
 }
@@ -215,9 +206,10 @@ footer nav a {
     justify-content: space-between;
 }
 
-
+/* fixing up the appearance on the buttons */
 .sides button{
-    width: 25%;
+    width: 33%;
+    max-width: 170px;
     padding: 2% 3%;
     margin: 3% 0 2%;
     border-radius:8%;
@@ -229,6 +221,7 @@ footer nav a {
     background-color: black;
 }
 
+/* spacing */
 .sides h2{
     margin: 2% 0;
 
@@ -250,6 +243,7 @@ footer nav a {
     padding-bottom: 2%;
 }
 
+/* this is the dotted line in the about page */
 section{
     border-top: 1px dotted darkslategrey;
     padding-top: 2%;
