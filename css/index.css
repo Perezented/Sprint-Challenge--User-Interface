@@ -61,6 +61,8 @@ html, body {
 .hiwayimg{
     display:flex;
     width: 100%;
+    animation-name: banners;
+    animation-duration: 2s;
 }
 
 
@@ -191,7 +193,15 @@ footer nav a {
 .city{
     display: flex;
     width: 100%;
+    animation-name: banners;
+    animation-duration: 3s;
+
 }
+@keyframes banners{
+    from{opacity:0}
+    to{opacity:1}
+}
+
 
 /* adjusting each box for the about page */
 .sides{
@@ -254,34 +264,60 @@ section{
 /* box colors */
 .box1{
     background: teal;
+    animation-name: banners;
+    animation-duration: 12s;
+
 
 }
 .box2{
     background: gold;
+    animation-name: banners;
+    animation-duration: 14s;
+
 }
 .box3{
     background: cadetblue;
+    animation-name: banners;
+    animation-duration: 16s;
+
 }
 .box4{
     background: coral;
+    animation-name: banners;
+    animation-duration: 18s;
+
 }
 .box5{
     background: crimson;
+    animation-name: banners;
+    animation-duration: 20s;
+
 }
 .box6{
     background: forestgreen;
+    animation-name: banners;
+    animation-duration: 22s;
+
 }
 .box7{
     background: darkorchid;
+    animation-name: banners;
+    animation-duration: 24s;
 }
 .box8{
     background: hotpink;
+    animation-name: banners;
+    animation-duration: 26s;
 }
 .box9{
     background: indigo;
+    animation-name: banners;
+    animation-duration: 28s;
 }
 .box10{
     background: dodgerblue;
+    animation-name: banners;
+    animation-duration: 30s;
 }
 
 
