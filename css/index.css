@@ -73,12 +73,14 @@ p {
     line-height: 1.4;
 }
 
-
+h2{
+    font-size: 140%;
+}
 
 /* adding the header stlyles */
 
 header nav{
-    padding: 4% 0;
+    padding: 6% 0 4%;
     display:flex;
     justify-content: space-around;
     border: 1px black solid;
@@ -92,8 +94,8 @@ header nav a{
 
 /* customizing the logo */
 .logo{
-    display: flex;
-
+    position: relative;
+    margin-top: -15%;
 }
 
 
@@ -101,26 +103,26 @@ header nav a{
 
 /* going to change this container to be flex */
 .container {
-    width: 800px;
+    width: 100%;
     margin: 0 auto;
 }
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
+    justify-content: space-between;
+    margin-bottom: 4%;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 3%;  
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    margin-bottom: 3%;
     border-bottom: 1px dashed black;
 }
 
@@ -136,14 +138,17 @@ header nav a{
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
     background: black;
-    margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+
+.box{
+    padding: 6%;
+    margin: 2%;
 }
 
 .bottom-content {
@@ -175,6 +180,7 @@ footer nav {
 }
 
 footer nav a {
+    font-weight: bold;
     color: white;
     text-decoration: none;
 }
