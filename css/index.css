@@ -51,10 +51,19 @@ table {
     box-sizing: border-box;
 }
 
+/* moving the banner to my likings and adding a border on the whole page to be set at edge of everthing */
 html, body {
+    margin: 0 3%;
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+
+.hiwayimg{
+    display:flex;
+    width: 100%;
+}
+
+
 
 h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
@@ -69,12 +78,25 @@ p {
 /* adding the header stlyles */
 
 header nav{
-
     padding: 4% 0;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     border: 1px black solid;
+    align-items: center;
 }
+header nav a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* customizing the logo */
+.logo{
+    display: flex;
+
+}
+
+
 
 
 /* going to change this container to be flex */
