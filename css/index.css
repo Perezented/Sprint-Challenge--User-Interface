@@ -80,7 +80,7 @@ h2{
 /* adding the header stlyles */
 
 header nav{
-    padding: 6% 0 4%;
+    padding: 3% 0 4%;
     display:flex;
     justify-content: space-around;
     border: 1px black solid;
@@ -124,9 +124,8 @@ header nav a{
 }
 
 .middle-content {
-
+    
     margin-bottom: 3%;
-    border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
@@ -138,18 +137,20 @@ header nav a{
 
 .middle-content .boxes {
     display: flex;
-    flex-wrap: wrap;
+
     justify-content: space-around;
+    border: magenta;
     
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes div {
     background: black;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     border: orangered 2px solid;
+    width: 15%;
 
 
 }
@@ -204,17 +205,51 @@ footer nav a {
     display:flex;
     flex-direction: column;
     width:49%;
-    justify-content: center;
+    
+    padding:1%;
+    border-bottom: black 2px dashed;
 }
 .frames{
     display: flex;
+    justify-content: space-between;
 }
 
+
+.sides button{
+    width: 25%;
+    padding: 2% 3%;
+    margin: 3% 0 2%;
+    border-radius:8%;
+    border: 1px black solid;
+    background-color:white;
+}
+.sides button:hover{
+    color: white;
+    background-color: black;
+}
+
+.sides h2{
+    margin: 2% 0;
+
+}
+.sides p{
+    margin-right: 2%;
+
+}
+
+
+/* also used this for the about section */
 .workunited{
-    padding: 5% 0 5%;
+    padding: 5% 0 2%;
     display:flex;
     flex-direction: column;
+
 }
 .workunited h2{
     padding-bottom: 2%;
+}
+
+section{
+    border-top: 1px dotted darkslategrey;
+    padding-top: 2%;
 }
