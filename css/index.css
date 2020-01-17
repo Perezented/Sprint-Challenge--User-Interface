@@ -57,8 +57,6 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -66,6 +64,20 @@ p {
     line-height: 1.4;
 }
 
+
+
+/* adding the header stlyles */
+
+header nav{
+
+    padding: 4% 0;
+    display:flex;
+    justify-content: space-between;
+    border: 1px black solid;
+}
+
+
+/* going to change this container to be flex */
 .container {
     width: 800px;
     margin: 0 auto;
@@ -98,7 +110,7 @@ p {
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .middle-content .boxes .box {
