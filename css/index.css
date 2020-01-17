@@ -144,13 +144,14 @@ header nav a{
 }
 
 .middle-content .boxes div {
-    background: black;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     border: orangered 2px solid;
     width: 15%;
+    padding:6% 0;
+    margin: 2% 0;
 
 
 }
@@ -253,3 +254,40 @@ section{
     border-top: 1px dotted darkslategrey;
     padding-top: 2%;
 }
+
+
+
+/* box colors */
+.box1{
+    background: teal;
+
+}
+.box2{
+    background: gold;
+}
+.box3{
+    background: cadetblue;
+}
+.box4{
+    background: coral;
+}
+.box5{
+    background: crimson;
+}
+.box6{
+    background: forestgreen;
+}
+.box7{
+    background: darkorchid;
+}
+.box8{
+    background: hotpink;
+}
+.box9{
+    background: indigo;
+}
+.box10{
+    background: dodgerblue;
+}
+
+
