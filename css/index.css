@@ -315,7 +315,6 @@ template {
   opacity: 0.9;
 }
 .top-nav .links {
-  border: 1px dotted red;
   display: flex;
   justify-content: space-around;
   align-content: center;
@@ -333,7 +332,6 @@ footer {
   background: black;
 }
 footer nav {
-  border: 1px dotted red;
   width: 65%;
   display: flex;
   justify-content: space-between;
@@ -358,6 +356,7 @@ body h2 {
   width: 100%;
 }
 .top-content {
+  padding: 2% 0;
   display: flex;
   justify-content: space-around;
   align-content: center;
@@ -365,6 +364,9 @@ body h2 {
 }
 .top-content .text-container {
   width: 45%;
+}
+.middle-content {
+  padding: 2% 0;
 }
 .middle-content .boxes {
   display: flex;
@@ -420,6 +422,7 @@ body h2 {
   text-shadow: 0 0 3px black, 0 0 5px white, 0 0 7px black;
 }
 .bottom-content {
+  padding: 2% 0;
   border-top: 1px dashed gray;
   display: flex;
   justify-content: space-around;
@@ -429,6 +432,7 @@ body h2 {
   width: 30%;
 }
 .about {
+  padding-bottom: 2%;
   border-bottom: 1px dashed grey;
 }
 .about-page p {
@@ -458,10 +462,22 @@ body h2 {
   border-radius: 6px;
   padding: 2% 3%;
   width: 45%;
+  transition: 0.2s ease-in-out;
+}
+.tiles .tile button:hover {
+  cursor: pointer;
+  color: white;
+  background: black;
+  transform-origin: left;
+  transform: scaleX(1.2);
+  transition: 0.2s ease-in-out;
 }
 .tiles .tile .img {
   width: 100%;
 }
 .tiles .tile .img img {
   width: 100%;
+}
+.bottomMost {
+  padding: 2% 0;
 }
