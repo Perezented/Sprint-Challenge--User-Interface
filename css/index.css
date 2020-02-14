@@ -322,7 +322,7 @@ template {
   width: 100%;
 }
 .top-nav .links a {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   align-self: center;
   text-decoration: none;
   color: white;
@@ -342,7 +342,7 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 body {
   margin: 0 8%;
@@ -352,7 +352,7 @@ body h2 {
   font-weight: 500;
 }
 .banner {
-  padding-top: 8%;
+  padding-top: 9%;
 }
 .banner img {
   width: 100%;
@@ -427,4 +427,41 @@ body h2 {
 }
 .bottom-content .text-container {
   width: 30%;
+}
+.about {
+  border-bottom: 1px dashed grey;
+}
+.about-page p {
+  font-size: 1.2;
+  line-height: 1.5rem;
+}
+.tiles {
+  padding-top: 4%;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+.tiles h3 {
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+.tiles .tile {
+  width: 45%;
+  padding-bottom: 2%;
+  margin-bottom: 3%;
+  border-bottom: 1px dashed grey;
+}
+.tiles .tile button {
+  background: white;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 2% 3%;
+  width: 45%;
+}
+.tiles .tile .img {
+  width: 100%;
+}
+.tiles .tile .img img {
+  width: 100%;
 }
