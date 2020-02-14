@@ -324,10 +324,50 @@ body {
   justify-content: space-around;
   align-content: space-between;
   flex-wrap: wrap;
-  border: 1px dotted blue;
+  padding: 2%;
 }
-.middle-content .boxes .box {
-  padding: 6%;
-  width: 6%;
-  border: 1px dotted green;
+.middle-content .boxes .teal {
+  background-color: teal;
+}
+.middle-content .boxes .gold {
+  background-color: gold;
+}
+.middle-content .boxes .cadetblue {
+  background-color: cadetblue;
+}
+.middle-content .boxes .coral {
+  background-color: coral;
+}
+.middle-content .boxes .crimson {
+  background-color: crimson;
+}
+.middle-content .boxes .forestgreen {
+  background-color: forestgreen;
+}
+.middle-content .boxes .darkorchid {
+  background-color: darkorchid;
+}
+.middle-content .boxes .hotpink {
+  background-color: hotpink;
+}
+.middle-content .boxes .indigo {
+  background-color: indigo;
+}
+.middle-content .boxes .dodgerblue {
+  background-color: dodgerblue;
+}
+.middle-content .boxes .teal,
+.middle-content .boxes .gold,
+.middle-content .boxes .cadetblue,
+.middle-content .boxes .coral,
+.middle-content .boxes .crimson,
+.middle-content .boxes .forestgreen,
+.middle-content .boxes .darkorchid,
+.middle-content .boxes .hotpink,
+.middle-content .boxes .indigo,
+.middle-content .boxes .dodgerblue {
+  width: 16.5%;
+  padding: 7.5% 0;
+  text-align: center;
+  color: white;
 }
