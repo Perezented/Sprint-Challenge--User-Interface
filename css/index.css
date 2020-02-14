@@ -303,9 +303,48 @@ template {
 [hidden] {
   display: none;
 }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 2% 0;
+  position: fixed;
+  z-index: 99;
+  width: 84%;
+}
+nav .links {
+  border: 1px dotted red;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  width: 100%;
+}
+nav .links a {
+  align-self: center;
+  text-decoration: none;
+  color: black;
+}
+footer {
+  padding: 3% 1%;
+  background: black;
+}
+footer nav {
+  border: 1px dotted red;
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-around;
+}
+footer nav a {
+  color: white;
+  text-decoration: none;
+}
 body {
   margin: 0 8%;
   width: 84%;
+}
+.banner {
+  padding-top: 10%;
 }
 .banner img {
   width: 100%;
@@ -370,4 +409,13 @@ body {
   padding: 7.5% 0;
   text-align: center;
   color: white;
+}
+.bottom-content {
+  border-top: 1px dashed gray;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+}
+.bottom-content .text-container {
+  width: 30%;
 }
