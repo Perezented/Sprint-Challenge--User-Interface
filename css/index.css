@@ -348,6 +348,9 @@ body {
   margin: 0 8%;
   width: 84%;
 }
+body h2 {
+  font-weight: 500;
+}
 .banner {
   padding-top: 8%;
 }
