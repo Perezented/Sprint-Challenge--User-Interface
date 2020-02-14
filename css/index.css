@@ -303,26 +303,30 @@ template {
 [hidden] {
   display: none;
 }
-nav {
+.top-nav {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  padding: 2% 0;
+  padding: 1.5% 0;
   position: fixed;
   z-index: 99;
   width: 84%;
+  background: white;
+  opacity: 0.9;
 }
-nav .links {
+.top-nav .links {
   border: 1px dotted red;
   display: flex;
   justify-content: space-around;
   align-content: center;
   width: 100%;
 }
-nav .links a {
+.top-nav .links a {
+  font-size: 1.4rem;
   align-self: center;
   text-decoration: none;
-  color: black;
+  color: white;
+  text-shadow: black 0 0 6px, 0 0 2px black;
 }
 footer {
   padding: 3% 1%;
@@ -338,13 +342,14 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+  font-size: 1.2rem;
 }
 body {
   margin: 0 8%;
   width: 84%;
 }
 .banner {
-  padding-top: 10%;
+  padding-top: 8%;
 }
 .banner img {
   width: 100%;
@@ -405,10 +410,11 @@ body {
 .middle-content .boxes .hotpink,
 .middle-content .boxes .indigo,
 .middle-content .boxes .dodgerblue {
-  width: 16.5%;
-  padding: 7.5% 0;
+  width: 16%;
+  padding: 7% 0;
   text-align: center;
   color: white;
+  text-shadow: 0 0 3px black, 0 0 5px white, 0 0 7px black;
 }
 .bottom-content {
   border-top: 1px dashed gray;
